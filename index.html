@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/35f5de594d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <title>Login Livraria</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container-login">
+            <h1 class="login-h1">Login</h1>
+
+            <div class="input-field">
+                <i class="fa-solid fa-user" id="icone-user"></i>
+                <input type="text" placeholder="Username" id="input-user">
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-lock" id="icone-senha"></i>
+                <input type="password" placeholder="Password" id="input-senha">
+            </div>
+            <button class="btn-login" onclick="verificacao()">Login</button>
+        </div>
+        <div class="container-img">
+            <img src="./assets/login_img02.png" alt="">
+        </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
